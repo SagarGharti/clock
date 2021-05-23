@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React, { useState } from "react";
 import './App.css';
+import Currentime from "./components/time";
+import Navbar from "./components/navbar";
+import Stoptime from "./components/stopwatch";
+import Diffrence from "./components/timer";
+import {BrowserRouter as Router, Route, Switch}  from "react-router-dom";
 
-function App() {
-  return (
+function App(){
+  return(
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <Router>
+          <Switch>
+            <Route exact path = "/"  component={ Currentime } />
+            <Route exact path="/stopwatch" component={ Stoptime } />
+            <Route exact path="/timer" component={ Diffrence } />
+          </Switch>
+          <Navbar />
+        </Router>
       </header>
     </div>
-  );
+
+
+  )
+
 }
+
+ 
 
 export default App;
