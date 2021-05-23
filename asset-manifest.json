@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SagarGharti/clock.git/static/css/main.86c21dfd.chunk.css",
+    "main.js": "/SagarGharti/clock.git/static/js/main.753987a5.chunk.js",
+    "main.js.map": "/SagarGharti/clock.git/static/js/main.753987a5.chunk.js.map",
+    "runtime-main.js": "/SagarGharti/clock.git/static/js/runtime-main.6faca769.js",
+    "runtime-main.js.map": "/SagarGharti/clock.git/static/js/runtime-main.6faca769.js.map",
+    "static/js/2.05632b8f.chunk.js": "/SagarGharti/clock.git/static/js/2.05632b8f.chunk.js",
+    "static/js/2.05632b8f.chunk.js.map": "/SagarGharti/clock.git/static/js/2.05632b8f.chunk.js.map",
+    "static/js/3.c6505058.chunk.js": "/SagarGharti/clock.git/static/js/3.c6505058.chunk.js",
+    "static/js/3.c6505058.chunk.js.map": "/SagarGharti/clock.git/static/js/3.c6505058.chunk.js.map",
+    "index.html": "/SagarGharti/clock.git/index.html",
+    "static/css/main.86c21dfd.chunk.css.map": "/SagarGharti/clock.git/static/css/main.86c21dfd.chunk.css.map",
+    "static/js/2.05632b8f.chunk.js.LICENSE.txt": "/SagarGharti/clock.git/static/js/2.05632b8f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6faca769.js",
+    "static/js/2.05632b8f.chunk.js",
+    "static/css/main.86c21dfd.chunk.css",
+    "static/js/main.753987a5.chunk.js"
+  ]
+}
